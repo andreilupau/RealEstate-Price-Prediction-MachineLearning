@@ -1,12 +1,13 @@
 # Estimarea prețului locuințelor din București folosind ML
 
 ## Descriere
-Aplicație care estimează prețul unei locuințe din București folosind modelul Regresie liniară
 
+Aplicație care estimează prețul unei locuințe din București folosind modelul Regresie liniară
 
 ## Rulare proiect
 
 1. Creare mediu virtual:
+
 ```bash
 python -m venv venv
 
@@ -14,7 +15,7 @@ python -m venv venv
 venv\Scripts\activate
 
 3. Instalare dependențe:
-pip install -r requirements.txt
+pip install -r README+REQ/requirements.txt
 
 4. Preprocesare date:
 python 1.preprocesare.py
@@ -25,4 +26,7 @@ venv\Scripts\python "3si4.antrenare&evaluare.py"
 6. Rulare interfață:
 venv\Scripts\python -m streamlit run 5.interfata.py
 
+Notă: interfața folosește grafice interactive cu `plotly` (inclus în requirements).
+
 Pentru fiecare fisier se va respecta instructiunile de la final daca sunt.
+```
