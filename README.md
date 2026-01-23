@@ -44,7 +44,7 @@ Proiectul include:
 
 ### 🔧 Preprocesare Date
 - Curățare și tratarea valorilor lipsă
-- Transformare logaritmică pentru preț (reduce influența outlier-ilor)
+- Transformare logaritmică pentru preț (reduce influența outlierilor)
 - Encoding pentru variabile categoriale (zone/cartiere)
 - Scalare cu StandardScaler pentru features numerice
 
@@ -104,7 +104,7 @@ RealEstate-Price-Prediction-MachineLearning/
 
 ## 🚀 Instalare
 
-### Prerequisite
+### Prerequisites
 - Python 3.11 sau superior
 - pip (package manager)
 
@@ -286,7 +286,7 @@ Dataset cu oferte imobiliare din București (Septembrie 2020)
 ### Preprocesare Aplicată
 
 1. **Tratarea valorilor lipsă:**
-   - Location: „Unknown"
+   - Location: "Unknown"
    - Numeric: mediana coloanei
 
 2. **Feature Engineering:**
