@@ -90,4 +90,4 @@ python 2.exploratory_analysis.py
 
 - **Language toggle**: RO/EN UI strings (simple in-app i18n)
 
-##Thank you for your attention!
+## Thank you for your attention!
